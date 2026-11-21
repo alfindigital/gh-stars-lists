@@ -1,0 +1,10 @@
+# Your manifests, journals and catalogs describe your own account: keep them out of git
+runs/
+*-journal.jsonl
+*.manifest.json
+
+__pycache__/
+*.pyc
+*.bak*
+.env
+.env.*
