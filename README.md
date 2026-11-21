@@ -27,7 +27,7 @@ $ python gh_stars_lists.py --audit
 
 ## Requirements
 
-- Python 3.8+ (standard library only)
+- Python 3.10+ (standard library only; CI tests 3.10 and 3.14)
 - [GitHub CLI](https://cli.github.com/) logged in, with the `user` scope (needed to change Lists):
 
 ```bash
