@@ -12,18 +12,9 @@ GitHub caps you at 32 Lists and gives you no tool to sort hundreds of stars into
 
 Built and used on a real account: 522 stars sorted into 32 lists, audit `PASS`.
 
-```text
-$ python gh_stars_lists.py --audit
-[+] Authenticated viewer: you (Verified)
-[+] Loaded 32 active user lists (with complete paginated members).
-[+] Total stars on account: 522 (examined: 522)
------------------------------------------------------------------
-[+] Zero multi-list duplicates found.
-[+] Zero list members without a star.
-[!] Found 3 UNLISTED repositories (classifier proposals, not applied):
-    - rustdesk/rustdesk: 'An open-source remote desktop application designed for self-hosting...'
-      ==> Proposal: [Infra] — Tier 2: Infra 5, Mobile 3
-```
+![gh-stars-lists planning, applying and auditing six new stars](assets/demo.gif)
+
+*Replay of a real run on 21 Nov 2026: six new stars get a proposed list, the reviewed manifest is applied, and the audit passes.*
 
 ## Requirements
 
